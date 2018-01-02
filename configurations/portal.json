@@ -1,0 +1,113 @@
+{
+	"name":"mosa08",
+	"url":"/modules/dynamic/panel.html",
+	"parameters":{
+		"sql_participant" : "@('Volunteer_ID')+' '+@('Initials')+' '+@('DOB')"
+	},
+	"panel":
+	{
+		"columns":
+		[
+			{
+				"sections":[{"name":"Participants","modules":[
+					{"module_id":"participant","name":"Participants","table_id":"20004263","url":"/modules/dynamic/mosa08/participant.html","counting":"1"}
+					]}]
+			}
+			,{
+				"sections":[
+					{"name":"1 Screening","modules":[
+					{"module_id":"m_001_001","name":"Informed consent","table_id":"20005967","url":"/modules/dynamic/mosa08/task/document_1.html","counting":"1"}
+					,{"module_id":"m_001_002","name":"Medical History","table_id":"20005968","url":"/modules/dynamic/mosa08/task/medical_history.html","counting":"1"}
+					,{"module_id":"m_001_003","name":"Selection criteria","table_id":"20005969","url":"/modules/dynamic/mosa08/task/document_1.html","counting":"1"}
+					,{"module_id":"m_001_004","name":"Anthropometric Data","table_id":"20005963","url":"/modules/dynamic/mosa08/task/anthropometric_data.html","counting":"1"}
+					,{"module_id":"m_001_005","name":"Biochemistry","table_id":"20005964","url":"/modules/dynamic/mosa08/task/biochemistry.html","counting":"1"}
+					,{"module_id":"m_001_006","name":"ESS","table_id":"20005965","url":"/modules/dynamic/mosa08/task/ess.html","counting":"1"}
+					,{"module_id":"m_001_007","name":"FOSQ","table_id":"20005966","url":"/modules/dynamic/mosa08/task/fosq.html","counting":"1"}
+				]}
+			]}
+			,{
+			"sections":[
+					{"name":"2 Baseline1  (Day 0)","modules":[
+						{"module_id":"m_002_001","name":"Randomisation","table_id":"20005916","url":"/modules/dynamic/mosa08/task/randomisation.html","counting":"1"}
+						,{"module_id":"m_002_002","name":"Anthropometric Data","table_id":"20005913","url":"/modules/dynamic/mosa08/task/anthropometric_data.html","counting":"1"}
+						,{"module_id":"m_002_003","name":"ESS","table_id":"20005914","url":"/modules/dynamic/mosa08/task/ess.html","counting":"1"}
+						,{"module_id":"m_002_004","name":"FOSQ","table_id":"20005915","url":"/modules/dynamic/mosa08/task/fosq.html","counting":"1"}
+						,{"module_id":"m_002_005","name":"Treatment VAS","table_id":"20005917","url":"/modules/dynamic/mosa08/task/vas_treatment.html","counting":"1"}
+						,{"module_id":"m_002_006","name":"1300 KSS","table_id":"20005904","url":"/modules/dynamic/mosa08/task/kss.html","counting":"1"}
+						,{"module_id":"m_002_007","name":"1300 PVT","table_id":"20005905","url":"/modules/dynamic/mosa08/task/pvt.html","counting":"1"}
+						,{"module_id":"m_002_008","name":"1400 KSS","table_id":"20005906","url":"/modules/dynamic/mosa08/task/kss.html","counting":"1"}
+						,{"module_id":"m_002_009","name":"1400 PVT","table_id":"20005907","url":"/modules/dynamic/mosa08/task/pvt.html","counting":"1"}
+						,{"module_id":"m_002_010","name":"1430 KSS","table_id":"20005910","url":"/modules/dynamic/mosa08/task/kss.html","counting":"1"}
+						,{"module_id":"m_002_011","name":"1430 AusEd Analyse","table_id":"20005908","url":"/modules/dynamic/mosa08/task/aused_upload.html","counting":"1"}
+						,{"module_id":"m_002_012","name":"1430 AusEd Read","table_id":"20005909","url":"/modules/dynamic/mosa08/task/aused.html","counting":"1"}
+						,{"module_id":"m_002_013","name":"1600 KSS","table_id":"20005911","url":"/modules/dynamic/mosa08/task/kss.html","counting":"1"}
+						,{"module_id":"m_002_014","name":"1600 PVT","table_id":"20005912","url":"/modules/dynamic/mosa08/task/pvt.html","counting":"1"}
+						]},
+					{"name":"3 End-point evaluation1 (Day 15)","modules":[
+						{"module_id":"m_003_002","name":"Anthropometric Data","table_id":"20005927","url":"/modules/dynamic/mosa08/task/anthropometric_data.html","counting":"1"}
+						,{"module_id":"m_003_003","name":"ESS","table_id":"20005929","url":"/modules/dynamic/mosa08/task/ess.html","counting":"1"}
+						,{"module_id":"m_003_004","name":"FOSQ","table_id":"20005930","url":"/modules/dynamic/mosa08/task/fosq.html","counting":"1"}
+						,{"module_id":"m_003_004","name":"CGI-C","table_id":"20005928","url":"/modules/dynamic/mosa08/task/cgic.html","counting":"1"}
+						,{"module_id":"m_003_005","name":"Treatment VAS","table_id":"20005932","url":"/modules/dynamic/mosa08/task/vas_treatment.html","counting":"1"}
+						,{"module_id":"m_003_006","name":"Treatment Diary VAS (At home)","table_id":"20005931","url":"/modules/dynamic/mosa08/task/vas_treatment.html","counting":"1"}
+						,{"module_id":"m_003_007","name":"1300 KSS","table_id":"20005918","url":"/modules/dynamic/mosa08/task/kss.html","counting":"1"}
+						,{"module_id":"m_003_008","name":"1300 PVT","table_id":"20005919","url":"/modules/dynamic/mosa08/task/pvt.html","counting":"1"}
+						,{"module_id":"m_003_009","name":"1400 KSS","table_id":"20005920","url":"/modules/dynamic/mosa08/task/kss.html","counting":"1"}
+						,{"module_id":"m_003_010","name":"1400 PVT","table_id":"20005921","url":"/modules/dynamic/mosa08/task/pvt.html","counting":"1"}
+						,{"module_id":"m_003_011","name":"1430 KSS","table_id":"20005924","url":"/modules/dynamic/mosa08/task/kss.html","counting":"1"}
+						,{"module_id":"m_003_012","name":"1430 AusEd Analyse","table_id":"20005922","url":"/modules/dynamic/mosa08/task/aused_upload.html","counting":"1"}
+						,{"module_id":"m_003_013","name":"1430 AusEd Read","table_id":"20005923","url":"/modules/dynamic/mosa08/task/aused.html","counting":"1"}
+						,{"module_id":"m_003_014","name":"1600 KSS","table_id":"20005925","url":"/modules/dynamic/mosa08/task/kss.html","counting":"1"}
+						,{"module_id":"m_003_015","name":"1600 PVT","table_id":"20005926","url":"/modules/dynamic/mosa08/task/pvt.html","counting":"1"}
+					]}
+				]}
+				,{
+				"sections":[
+					{"name":"6 Baseline2 (Day 31)","modules":[
+						{"module_id":"m_004_002","name":"Anthropometric Data","table_id":"20005942","url":"/modules/dynamic/mosa08/task/anthropometric_data.html","counting":"1"}
+						,{"module_id":"m_004_003","name":"ESS","table_id":"20005944","url":"/modules/dynamic/mosa08/task/ess.html","counting":"1"}
+						,{"module_id":"m_004_004","name":"FOSQ","table_id":"20005945","url":"/modules/dynamic/mosa08/task/fosq.html","counting":"1"}
+						,{"module_id":"m_004_004","name":"CGI-C","table_id":"20005943","url":"/modules/dynamic/mosa08/task/cgic.html","counting":"1"}
+						,{"module_id":"m_004_005","name":"Treatment VAS","table_id":"20005946","url":"/modules/dynamic/mosa08/task/vas_treatment.html","counting":"1"}
+						,{"module_id":"m_004_007","name":"1300 KSS","table_id":"20005933","url":"/modules/dynamic/mosa08/task/kss.html","counting":"1"}
+						,{"module_id":"m_004_008","name":"1300 PVT","table_id":"20005934","url":"/modules/dynamic/mosa08/task/pvt.html","counting":"1"}
+						,{"module_id":"m_004_009","name":"1400 KSS","table_id":"20005935","url":"/modules/dynamic/mosa08/task/kss.html","counting":"1"}
+						,{"module_id":"m_004_010","name":"1400 PVT","table_id":"20005936","url":"/modules/dynamic/mosa08/task/pvt.html","counting":"1"}
+						,{"module_id":"m_004_011","name":"1430 KSS","table_id":"20005939","url":"/modules/dynamic/mosa08/task/kss.html","counting":"1"}
+						,{"module_id":"m_004_012","name":"1430 AusEd Analyse","table_id":"20005937","url":"/modules/dynamic/mosa08/task/aused_upload.html","counting":"1"}
+						,{"module_id":"m_004_013","name":"1430 AusEd Read","table_id":"20005938","url":"/modules/dynamic/mosa08/task/aused.html","counting":"1"}
+						,{"module_id":"m_004_014","name":"1600 KSS","table_id":"20005940","url":"/modules/dynamic/mosa08/task/kss.html","counting":"1"}
+						,{"module_id":"m_004_015","name":"1600 PVT","table_id":"20005941","url":"/modules/dynamic/mosa08/task/pvt.html","counting":"1"}
+						]},
+					{"name":"7 End-point evaluation2 (Day 47)","modules":[
+						{"module_id":"m_005_002","name":"Anthropometric Data","table_id":"20005956","url":"/modules/dynamic/mosa08/task/anthropometric_data.html","counting":"1"}
+						,{"module_id":"m_005_003","name":"ESS","table_id":"20005958","url":"/modules/dynamic/mosa08/task/ess.html","counting":"1"}
+						,{"module_id":"m_005_004","name":"FOSQ","table_id":"20005959","url":"/modules/dynamic/mosa08/task/fosq.html","counting":"1"}
+						,{"module_id":"m_005_004","name":"CGI-C","table_id":"20005957","url":"/modules/dynamic/mosa08/task/cgic.html","counting":"1"}
+						,{"module_id":"m_005_005","name":"Treatment VAS","table_id":"20005961","url":"/modules/dynamic/mosa08/task/vas_treatment.html","counting":"1"}
+						,{"module_id":"m_005_006","name":"Treatment Diary VAS (At home)","table_id":"20005960","url":"/modules/dynamic/mosa08/task/vas_treatment.html","counting":"1"}
+						,{"module_id":"m_005_007","name":"1300 KSS","table_id":"20005947","url":"/modules/dynamic/mosa08/task/kss.html","counting":"1"}
+						,{"module_id":"m_005_008","name":"1300 PVT","table_id":"20005948","url":"/modules/dynamic/mosa08/task/pvt.html","counting":"1"}
+						,{"module_id":"m_005_009","name":"1400 KSS","table_id":"20005949","url":"/modules/dynamic/mosa08/task/kss.html","counting":"1"}
+						,{"module_id":"m_005_010","name":"1400 PVT","table_id":"20005950","url":"/modules/dynamic/mosa08/task/pvt.html","counting":"1"}
+						,{"module_id":"m_005_011","name":"1430 KSS","table_id":"20005953","url":"/modules/dynamic/mosa08/task/kss.html","counting":"1"}
+						,{"module_id":"m_005_012","name":"1430 AusEd Analyse","table_id":"20005951","url":"/modules/dynamic/mosa08/task/aused_upload.html","counting":"1"}
+						,{"module_id":"m_005_013","name":"1430 AusEd Read","table_id":"20005952","url":"/modules/dynamic/mosa08/task/aused.html","counting":"1"}
+						,{"module_id":"m_005_014","name":"1600 KSS","table_id":"20005954","url":"/modules/dynamic/mosa08/task/kss.html","counting":"1"}
+						,{"module_id":"m_005_015","name":"1600 PVT","table_id":"20005955","url":"/modules/dynamic/mosa08/task/pvt.html","counting":"1"}
+					]}
+				]}
+				,{
+				"sections":[
+					{"name":"Special Forms (Un-Scheduled Encounter)","modules":[
+						{"module_id":"m_009_001","name":"Concom Medications","table_id":"20005902","url":"/modules/dynamic/mosa08/task/concom_medications.html","counting":"1"}
+						,{"module_id":"m_009_002","name":"Adverse Event","table_id":"20005901","url":"/modules/dynamic/mosa08/task/adverse_event.html","counting":"1"}
+						,{"module_id":"m_009_003","name":"File Notes","table_id":"20005962","url":"/modules/dynamic/mosa08/task/File_Notes.html","counting":"1"}
+						,{"module_id":"m_009_004","name":"Serious Adverse Event","table_id":"20005970","url":"/modules/dynamic/mosa08/task/Serious_Adverse_Event.html","counting":"1"}
+						,{"module_id":"m_009_005","name":"Serious Adverse Event Follow Up","table_id":"20005971","url":"/modules/dynamic/mosa08/task/Serious_Adverse_Event_Follow_Up.html","counting":"1"}
+						,{"module_id":"m_009_006","name":"CPAP Call Record","table_id":"20005903","url":"/modules/dynamic/mosa08/task/call_log.html","counting":"1"}
+						]}
+					]}
+				]
+			}
+		}
