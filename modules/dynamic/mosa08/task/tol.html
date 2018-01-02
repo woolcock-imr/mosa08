@@ -4,30 +4,31 @@
 <script>
     function F__ID(){
         //-------------------------------------
+
         VmInclude:__PARTS__/grid/grid.js
         VmInclude:__PARTS__/style/ease-in-out.js
 		VmInclude:__CURRENT_PATH__/task.js
         //-------------------------------------
         _task_fields="\
-			Initials|Initials,\
-	        Location|LocationID,\
-	        Randomisation Number|RandomisationNumber,\
-	        Arm|ArmID,\
-	        Date|DateID,\
-	        Time|TimeID,\
-	        Sex|SexID,\
-	        Sequence|SeqID,\
-	        Performance Date|PerformanceDate,\
-	        DOB|DOBID,\
-			ESS|ESS,\
-	        ESSQ1|ESSQ1,\
-	        ESSQ2|ESSQ2,\
-	        ESSQ3|ESSQ3,\
-	        ESSQ4|ESSQ4,\
-	        ESSQ5|ESSQ5,\
-	        ESSQ6|ESSQ6,\
-	        ESSQ7|ESSQ7,\
-	        ESSQ8|ESSQ8\
+            Initials|Initials,\
+            Location|LocationID,\
+            Randomisation Number|RandomisationNumber,\
+            Arm|ArmID,\
+            Date|DateID,\
+            Time|TimeID,\
+            Sex|SexID,\
+            Sequence|SeqID,\
+            Performance Date|PerformanceDate,\
+            DOB|DOBID,\
+            TGME|TGME,\
+            TGMT|TGMT,\
+            TER0|TER0,\
+            TET0|TET0,\
+            TER1|TER1,\
+            TET1|TET1,\
+            TMIS|TMIS,\
+            TPLAN|TPLAN,\
+            TPT|TPT\
 		";
 		_fields="_Form,Volunteer_ID|VolunteerID_A,"+_task_fields;
         _fields+=",Submit Date|DateTime,Submitted by|Author";
